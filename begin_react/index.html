@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <body>
+        <fragment id="root"></fragment>
+    </body>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/prop-types@15.8.1/prop-types.js"></script>
+    <script type="text/babel">    
+        function Button({text, fontSize = 14}){
+            console.log(text, "was rendered");
+            return <button style={
+                    {
+                        backgroundColor:"tomato",
+                        color:"white",
+                        padding: "10px 20px",
+                        border: 0,
+                        borderRadius: 20,
+                        fontSize: fontSize
+                    }
+                }
+            >{text}</button>
+        }        
+        Button.propTypes = {
+            text:PropTypes.string.isRequired,
+            fontSize: PropTypes.number
+        }
+
+        function App() {
+            return(
+                <div>
+                    <Button text={"Save Changes"} fontSize={18}/>
+                    <Button text={"Continue"}/>
+                </div>   
+            );
+        };
+
+        const root = document.getElementById("root");
+        ReactDOM.render(<App/>, root);
+    </script>
+</html>
