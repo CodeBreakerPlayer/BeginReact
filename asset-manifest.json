@@ -1,11 +1,11 @@
 {
-  "main.js": "/BeginReact/MovieApp/static/js/main.d7f9f019.chunk.js",
-  "main.js.map": "/BeginReact/MovieApp/static/js/main.d7f9f019.chunk.js.map",
-  "static/js/1.337211f3.chunk.js": "/BeginReact/MovieApp/static/js/1.337211f3.chunk.js",
-  "static/js/1.337211f3.chunk.js.map": "/BeginReact/MovieApp/static/js/1.337211f3.chunk.js.map",
-  "runtime~main.js": "/BeginReact/MovieApp/static/js/runtime~main.2d0393e1.js",
-  "runtime~main.js.map": "/BeginReact/MovieApp/static/js/runtime~main.2d0393e1.js.map",
-  "index.html": "/BeginReact/MovieApp/index.html",
-  "precache-manifest.8e2394c9d741ae4c09a07af80e18998a.js": "/BeginReact/MovieApp/precache-manifest.8e2394c9d741ae4c09a07af80e18998a.js",
-  "service-worker.js": "/BeginReact/MovieApp/service-worker.js"
+  "main.js": "/BeginReact/static/js/main.d7f9f019.chunk.js",
+  "main.js.map": "/BeginReact/static/js/main.d7f9f019.chunk.js.map",
+  "static/js/1.337211f3.chunk.js": "/BeginReact/static/js/1.337211f3.chunk.js",
+  "static/js/1.337211f3.chunk.js.map": "/BeginReact/static/js/1.337211f3.chunk.js.map",
+  "runtime~main.js": "/BeginReact/static/js/runtime~main.6eba6677.js",
+  "runtime~main.js.map": "/BeginReact/static/js/runtime~main.6eba6677.js.map",
+  "index.html": "/BeginReact/index.html",
+  "precache-manifest.ea58ed3ed53b8ca26b23034d9b67ffd3.js": "/BeginReact/precache-manifest.ea58ed3ed53b8ca26b23034d9b67ffd3.js",
+  "service-worker.js": "/BeginReact/service-worker.js"
 }
