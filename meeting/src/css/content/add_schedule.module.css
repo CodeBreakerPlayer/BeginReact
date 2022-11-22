@@ -1,0 +1,131 @@
+.mainFrame{
+    display: inline-flex;
+    width: 720px;
+    height: 800px;
+    color: #303031;
+    font-size: 14px;
+    border: 1px solid #E6E6E6;
+}
+.labelColorFrame{
+    margin-left: 5px;
+    width: 7px;
+}
+.contentMainFrame
+{
+    display: flex;
+    flex-direction: column;
+    color: #303031;
+    font-size: 14px;
+    margin: 30px;
+}
+.combo{
+    width: 100px;
+    height: 30px;
+    color: #BDBDBD;
+    border: none;
+}
+.combo:focus{
+    outline: none;
+}
+.labelTitle{
+    min-height: 55px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    background: #f9f9fb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-indent: 10px;
+}
+.labelTitle::placeholder{
+    color: #BDBDBD;
+}
+.labelTitle:focus{
+    outline: none;
+}
+
+.itemFrame{
+    height: 30px;
+    display: flex;
+    border: none;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.itemTitle{
+    width: 180px;
+    display: inline-flex;
+    align-items: center;
+}
+.itemTitleText{
+    text-indent: 10px;
+}
+.itemContent{
+    display:inline-flex;
+    align-items: center;
+    width: 460px;
+    border: none;
+    background: #f9f9fb;
+}
+.itemInputText{
+    width: 440px;
+    border: none;
+    background: #f9f9fb;
+    padding: 10px;
+    overflow-y: auto;
+}
+.itemInputText:focus{
+    outline: none;
+}
+.itemCombo{
+    width: 100px;
+    background: #f9f9fb;
+    border: none;
+    user-select: none;
+    vertical-align:middle;
+    text-indent: 5px;
+}
+.itemCombo:focus{
+    outline: none;
+}
+.imageButton{
+    background-size:cover;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.imageButton:hover{
+    cursor: pointer;
+}
+.buttonWriteNote{
+    width: 100px;
+    height: 32px;
+    background: #f9f9fb;
+    border: 1px solid #c2c2c5;
+    background: #F9F9FB;
+    border: 1px solid #C2C2C5;
+    border-radius: 2px;
+    opacity: 1;
+}
+.buttonWriteNote:hover{
+    background: #EEEEF3;
+}
+.buttonWriteNote:active{
+    background: #DADADE;
+}
+
+.buttonMeetingStart{
+    margin-left: 5px;
+    width: 100px;
+    height: 32px;
+    background: #0174DF;
+    border: 1px solid #C2C2C5;
+    border-radius: 2px;
+    opacity: 1;
+    color: #fff;
+}
+.buttonMeetingStart:hover{
+    background: #045FB4;
+
+}
+.buttonMeetingStart:active{
+    background: #084B8A;
+}

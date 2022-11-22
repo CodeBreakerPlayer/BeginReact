@@ -1,0 +1,88 @@
+.titleText{
+    text-align: left;
+    font: normal normal bold 18px Malgun Gothic;
+    letter-spacing: 0px;
+    color: #303031;
+    margin-left: 20px;
+}
+
+.inlineStyle{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    user-select: none;
+}
+
+.menuIcon{
+    background: url('../../image/menu_button.png');
+    background-size:cover;
+    height: 24px;
+    width: 24px;
+    cursor:pointer;
+}
+
+.searchBox{
+    display: flex;
+    align-items: center;
+    min-width: 230px;
+    height: 28px;
+    border: 1px solid #c2c2c5;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.searchTextBox{
+    width: 100%;
+    height: 26px;
+    border: none;
+    margin-left: 5px;
+}
+
+.searchTextBox:focus{
+    outline: none;
+}
+
+.searchButton{
+    min-width: 16px;
+    min-height: 16px;
+    background: url('../../image/Search_Light.png');
+    background-size:cover;
+    cursor:pointer;
+    margin-right: 5px;
+}
+
+.addButton{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font: normal normal bold 12px/16px Malgun Gothic;
+    color: #FFFFFF;
+    background: #084B8A;
+    border: 1px solid #c2c2c5;
+    border-radius: 4px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.combo{
+    min-width: 80px;
+    height: 100%;
+    border: none;
+    border-radius: 4px;
+}
+
+.combo:focus{
+    outline: none;
+}
+
+.selectDateBox{
+    display: flex;
+    align-items: center;
+    min-width: 400px;
+    height: 28px;
+    border: 1px solid #c2c2c5;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    margin-right: 5px;
+}

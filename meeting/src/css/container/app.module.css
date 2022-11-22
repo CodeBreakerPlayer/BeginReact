@@ -1,0 +1,45 @@
+html, body{
+    font-family:'Malgun Gothic';
+    font-size: 12px;
+    height: 100%;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.topContainer{
+    display: flex;
+    align-items: center;
+    background: #084B8A;
+    height: 50px;
+}
+.topIcon{
+    background: url('../../image/logo_concept.png');
+    background-size:cover;
+    margin-left: 15px;
+    height: 30px;
+    width: 30px;
+}
+.topTitle{
+    margin-left: 15px;
+    color: white;
+    font-size: 25px;
+}
+.bottomContainer{
+    display: inline-flex;
+    height: calc(100vh - 50px);
+}
+.bottomLeftContainer{    
+    display: flex;
+    background: #F9F9FB 0% 0% no-repeat padding-box;
+    flex-direction: column;
+    min-width: 200px;
+}
+.bottomRightContainer{   
+    display: flex;
+    background: white;
+    overflow: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}

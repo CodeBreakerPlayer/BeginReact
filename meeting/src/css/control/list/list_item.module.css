@@ -1,0 +1,50 @@
+.listItemContainer{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    margin: 5px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.listItemContainer:hover{
+    cursor: pointer;
+    background: white;
+}
+
+.listItemContainerActive{
+    display: flex;
+    align-items: center;
+    background: white;
+    margin: 5px;
+    height: 40px;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+}
+
+.listItemContainerActive:hover{
+    cursor: pointer;
+    background: white;
+}
+
+.listItemIcon{
+    margin-left: 15px;
+    height: 24px;
+    width: 24px;
+    user-select: none;
+}
+
+.listItemTitle{
+    margin-left: 15px;
+    color: #737377;
+    font-size: 15px;
+    user-select: none;
+}
+
+.listItemTitleActive{
+    margin-left: 15px;
+    color: #303031;
+    font-size: 15px;
+    font-weight: bold;
+    user-select: none;
+}
