@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-export function Detail():JSX.Element {
+export function Detail() {
   const { id } = useParams();
   const getMovie = async () => {
     const json = await (
